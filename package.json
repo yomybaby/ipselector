@@ -1,6 +1,6 @@
 {
   "name": "ipselector",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "IpSelector is a library to select a local IP address at the command line",
   "scripts": {},
   "keywords": [
@@ -14,5 +14,9 @@
   "dependencies": {
     "underscore": "~1.5.2",
     "fields" : "~0.1.12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yomybaby/ipselector.git"
+  },
 }

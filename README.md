@@ -13,18 +13,12 @@ Start by requiring the fields module:
     var ipselector = require('ipselector');
 
 # Functions
-## ipselector.selectOne([where],callback)
+## ipselector.selectOne(where,callback)
 
-    ipSelector.selectOne({
+    ipselector.selectOne({
       family : 'IPv4',
       internal : false
     }, function(ip) {
-      console.log(ip);
-    });
-
-or without where
-
-    ipSelector.selectOne(function(ip){
       console.log(ip);
     });
 
