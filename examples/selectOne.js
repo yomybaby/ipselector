@@ -1,4 +1,4 @@
-var ipselector = require('../ipselector');
+var ipselector = require('ipselector');
 ipselector.selectOne({
 	// family : 'IPv4',
 	internal : false

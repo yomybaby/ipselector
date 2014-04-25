@@ -17,7 +17,7 @@ exports.selectOne = function(where,callback){
 		});
 		ip_addresses = ip_addresses.concat(results);
 	});
-	
+
 	fields.set([
 		fields.select({
 			title : "Which ip address you want to use?",
