@@ -10,7 +10,12 @@ exports.selectOne = function(where,callback){
 	var ifaces = os.networkInterfaces(),
 		ip_addresses = [];
 		
+	var interfaceName = where.networkInterface;
+	delete where.networkInterface;
 	_.each(ifaces,function(iface,dev_name){
+		if(interfaceName && dev_name !== interfaceName){
+			return;
+		}
 		var results = _.where(iface,where);
 		_.each(results,function(details){
 			details.dev_name  = dev_name;

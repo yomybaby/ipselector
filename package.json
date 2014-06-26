@@ -1,6 +1,6 @@
 {
   "name": "ipselector",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "IpSelector is a library to select a local IP address at the command line",
   "scripts": {},
   "keywords": [
